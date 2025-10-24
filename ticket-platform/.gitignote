@@ -1,0 +1,40 @@
+# Veritabanı dosyaları
+*.db
+*.sqlite
+*.sqlite3
+
+# Log dosyaları
+*.log
+error_log
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Geçici dosyalar
+tmp/
+temp/
+cache/
+
+# Composer (eğer kullanılırsa)
+vendor/
+composer.lock
+
+# Node modules (eğer kullanılırsa)
+node_modules/
+package-lock.json
+
+# Backup dosyaları
+*.bak
+*.backup
+
+# Config dosyaları (production)
+# config/production.php

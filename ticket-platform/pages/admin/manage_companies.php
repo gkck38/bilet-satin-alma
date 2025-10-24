@@ -200,3 +200,20 @@ include __DIR__ . '/../../includes/header.php';
                                                 <i class="bi bi-trash"></i>
                                             </a>
                                         </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                <?php else: ?>
+                    <div class="text-center py-4">
+                        <i class="bi bi-building text-muted" style="font-size: 3rem;"></i>
+                        <p class="text-muted mt-3">Henüz firma eklenmemiş</p>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include __DIR__ . '/../../includes/footer.php'; ?>

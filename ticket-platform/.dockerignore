@@ -1,0 +1,57 @@
+# Docker ignore dosyası
+# Bu dosyalar Docker image'e dahil edilmeyecek
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Temporary files
+tmp/
+temp/
+cache/
+*.tmp
+
+# Node (eğer varsa)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer (eğer varsa)
+vendor/
+composer.phar
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Documentation (opsiyonel)
+README.md
+CHANGELOG.md
+LICENSE
+
+# Docker files
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Database (development)
+# database.db

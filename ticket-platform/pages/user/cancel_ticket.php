@@ -33,7 +33,6 @@ if (!$ticket) {
 if (!canCancelTicket($ticket['departure_date'], $ticket['departure_time'])) {
     setFlashMessage('Sefer saatine 1 saatten az kaldığı için bilet iptal edilemez!', 'error');
     redirect('/pages/user/my_tickets.php');
-}
 
 try {
     $pdo->beginTransaction();

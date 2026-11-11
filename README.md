@@ -587,7 +587,7 @@ Bu proje [MIT License](LICENSE) ile lisanslanmıştır.
 
 ## 📞 İletişim
 
-- 📧 Email: info@biletplatformu.com
+- 📧 Email: muhammed@emingokcek.com
 - 🐛 Issues: [GitHub Issues](https://github.com/gkck38/bilet-satin-alma/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/gkck38/bilet-satin-alma/discussions)
 
